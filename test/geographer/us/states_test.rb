@@ -2,6 +2,12 @@ require 'test_helper'
 
 class StatesTest < Test::Unit::TestCase
   context "states" do
+    setup do
+      class States
+        include Geographer::Us::States
+      end
+    end
+    
     context "abbreviations" do
       setup do
         @states = %w( AK AL AR AZ CA CO CT DC DE FL GA HI IA ID IL IN KS KY LA MA MD ME MI MN MO MS MT NC ND NE NH NJ NM NV NY 

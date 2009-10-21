@@ -29,42 +29,45 @@ Add to environment file:
 
   config.gem "geographer", :version => '1.0.0', :source => 'http://gemcutter.org'
 
-You may also want to create an initializer at config/initilaizer/geographer.rb:
+You will need to create classes and include modules in order to use geographer.  You can do this in the lib directory, 
+an initializer, etc.:
 
-  $STATES = Geographer::Us::States
-
-This will allow you to use $STATES as opposed to Geographer::Us::States when using geographer within your application.
+  class States
+    include Geographer::Us::States
+  end
 
 
 == USAGE
 
+The examples are based on the States class created above.
+
 For a list (array) of state abbreviations:
 
-  Geographer::Us::States.abbreviations
+  States.abbreviations
 
 For a list (array) of state names:
 
-  Geographer::Us::States.names
+  States.names
 
 For a list (array) of state abbreviations with US territories:
 
-  Geographer::Us::States.abbreviations_with_territories
+  States.abbreviations_with_territories
 
 For a list (array) of state names with US territories:
 
-  Geographer::Us::States.names_with_territories
+  States.names_with_territories
 
 For a list (array) of territory abbreviations:
 
-  Geographer::Us::States.territories_abbreviations
+  States.territories_abbreviations
 
 For a list (array) of territory names:
 
-  Geographer::Us::States.territories_names
+  States.territories_names
 	
 To look up the full name from the abbreviation:
 
-  Geographer::Us::States.abbreviations_name_map['AL'] # returns 'Alabama'
+  States.abbreviations_name_map['AL'] # returns 'Alabama'
 
 
 == LICENSE
