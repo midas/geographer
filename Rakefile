@@ -6,12 +6,11 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "geographer"
     gem.summary = %Q{Provides Geography information from the US and world (ie. US states list with abbreviations and names, World countries list, etc.)}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{Provides Geography information from the US and world (ie. US states list with abbreviations and names, World countries list, etc.)}
     gem.email = "jason@lookforwardenterprises.com"
     gem.homepage = "http://github.com/midas/geographer"
-    gem.authors = ["Jason Harrelson"]
-    gem.add_development_dependency "thoughtbot-shoulda"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.authors = ["C. Jason Harrelson (midas)"]
+    gem.add_development_dependency "shoulda", ">= 2.10.2"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
