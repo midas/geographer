@@ -1,18 +1,93 @@
 = geographer
 
-Description goes here.
+== DESCRIPTION
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+Provides Geography information from the US and world (ie. US states list with abbreviations and names, World 
+countries list, etc.)
 
-== Copyright
 
-Copyright (c) 2009 Jason Harrelson. See LICENSE for details.
+== FEATURES
+
+* States class containing information about the US states and territories.
+
+
+== PLANNED FEATURES
+
+* World countries list
+* US zip codes list and tools
+
+
+== INSTALL
+
+  gem sources -a http://gemcutter.org
+  sudo gem install 
+
+
+== INSTALL FOR RAILS
+
+Add to environment file:
+
+  config.gem "geographer", :version => '1.0.0', :source => 'http://gemcutter.org'
+
+You may also want to create an initializer at config/initilaizer/geographer.rb:
+
+  $STATES = Geographer::Us::States
+
+This will allow you to use $STATES as opposed to Geographer::Us::States when using geographer within your application.
+
+
+== USAGE
+
+For a list (array) of state abbreviations:
+
+  Geographer::Us::States.abbreviations
+
+For a list (array) of state names:
+
+  Geographer::Us::States.names
+
+For a list (array) of state abbreviations with US territories:
+
+  Geographer::Us::States.abbreviations_with_territories
+
+For a list (array) of state names with US territories:
+
+  Geographer::Us::States.names_with_territories
+
+For a list (array) of territory abbreviations:
+
+  Geographer::Us::States.territories_abbreviations
+
+For a list (array) of territory names:
+
+  Geographer::Us::States.territories_names
+	
+To look up the full name from the abbreviation:
+
+  Geographer::Us::States.abbreviations_name_map['AL'] # returns 'Alabama'
+
+
+== LICENSE
+
+(The MIT License)
+
+Copyright (c) 2009 C. Jason Harrelson (midas)
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+'Software'), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
