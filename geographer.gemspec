@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "geographer.gemspec",
      "lib/geographer.rb",
      "lib/geographer/us/states.rb",
      "script/console",
