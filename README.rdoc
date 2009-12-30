@@ -27,7 +27,7 @@ countries list, etc.)
 
 Add to environment file:
 
-  config.gem "geographer", :version => '1.0.0', :source => 'http://gemcutter.org'
+  config.gem "geographer", :version => '1.1.1', :source => 'http://gemcutter.org'
 
 You will need to create classes and include modules in order to use geographer.  You can do this in the lib directory, 
 an initializer, etc.:
