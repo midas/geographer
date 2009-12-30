@@ -227,7 +227,7 @@ module Geographer
         {:iso => 'VE', :name => 'VENEZUELA', :printable_name => 'Venezuela', :iso3 => 'VEN', :numcode => '862'},
         {:iso => 'VN', :name => 'VIET NAM', :printable_name => 'Viet Nam', :iso3 => 'VNM', :numcode => '704'},
         {:iso => 'VG', :name => 'VIRGIN ISLANDS, BRITISH', :printable_name => 'Virgin Islands, British', :iso3 => 'VGB', :numcode => '092'},
-        {:iso => 'VI', :name => 'VIRGIN ISLANDS, U.S.', :printable_name => 'Virgin Islands, U.s.', :iso3 => 'VIR', :numcode => '850'},
+        {:iso => 'VI', :name => 'VIRGIN ISLANDS, U.S.', :printable_name => 'Virgin Islands, U.S.', :iso3 => 'VIR', :numcode => '850'},
         {:iso => 'WF', :name => 'WALLIS AND FUTUNA', :printable_name => 'Wallis and Futuna', :iso3 => 'WLF', :numcode => '876'},
         {:iso => 'EH', :name => 'WESTERN SAHARA', :printable_name => 'Western Sahara', :iso3 => 'ESH', :numcode => '732'},
         {:iso => 'YE', :name => 'YEMEN', :printable_name => 'Yemen', :iso3 => 'YEM', :numcode => '887'},
