@@ -1,0 +1,5 @@
+== 1.1.1 2009-12-30
+
+* Added a states map keyed by names (inverted version of map keyed by abbreviation).
+* Added #by_abbrevation as an alias for #abbreviations_name_map.
+* Added #by_name as an alias for #names_abbreviation_map.

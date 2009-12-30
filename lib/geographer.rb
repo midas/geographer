@@ -4,5 +4,5 @@ $:.unshift(File.dirname(__FILE__)) unless
 require 'geographer/us/states'
 
 module Geographer
-  VERSION = '1.1.0'
+  VERSION = '1.1.1'
 end
