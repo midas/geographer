@@ -7,3 +7,7 @@ require 'geographer/us/states'
 module Geographer
   VERSION = '1.1.1'
 end
+
+if defined?( ActionView::Base )
+  ActionView::Base.send( :include, Geographer::ViewHelpers ) unless ActionView::Base.include?( Geographer::ViewHelpers )
+end
