@@ -239,7 +239,20 @@ module Geographer
       {:iso => 'EH', :name => 'WESTERN SAHARA', :printable_name => 'Western Sahara', :iso3 => 'ESH', :numcode => '732'},
       {:iso => 'YE', :name => 'YEMEN', :printable_name => 'Yemen', :iso3 => 'YEM', :numcode => '887'},
       {:iso => 'ZM', :name => 'ZAMBIA', :printable_name => 'Zambia', :iso3 => 'ZMB', :numcode => '894'},
-      {:iso => 'ZW', :name => 'ZIMBABWE', :printable_name => 'Zimbabwe', :iso3 => 'ZWE', :numcode => '716'}
+      {:iso => 'ZW', :name => 'ZIMBABWE', :printable_name => 'Zimbabwe', :iso3 => 'ZWE', :numcode => '716'},
+      {:iso => 'BL', :name => 'SAINT BARTHELEMY', :printable_name => 'Saint Barthélemy', :iso3 => 'BLM', :numcode => '652' },
+      {:iso => 'BV', :name => 'BOUVET ISLAND', :printable_name => 'Bouvet Island', :iso3 => 'BVT', :numcode => '074' },
+      {:iso => 'CC', :name => 'COCOS (KEELING) ISLANDS', :printable_name => 'Cocos (Keeling) Islands' },
+      {:iso => 'CX', :name => 'CHRISTMAS ISLAND', :printable_name => 'Christmas Island', :iso3 => 'CXR', :numcode => '162' },
+      {:iso => 'GG', :name => 'GUERNSEY', :printable_name => 'Guernsey', :iso3 => 'GGY', :numcode => '831' },
+      {:iso => 'HM', :name => 'HEARD ISLAND AND MCDONALD ISLANDS', :printable_name => 'Heard Island and McDonald Islands', :iso3 => 'HMD', :numcode => '334' },
+      {:iso => 'IM', :name => 'ISLE OF MAN', :printable_name => 'Isle of Man', :iso3 => 'IMN', :numcode => '833' },
+      {:iso => 'JE', :name => 'JERSEY', :printable_name => 'Jersey', :iso3 => 'JEY', :numcode => '832' },
+      {:iso => 'MF', :name => 'SAINT MARTIN (FRENCH PART)', :printable_name => 'Saint Martin (French part)', :iso3 => 'MAF', :numcode => '663' },
+      {:iso => 'RS', :name => 'SERBIA', :printable_name => 'Serbia', :iso3 => 'SRB', :numcode => '688' },
+      {:iso => 'TF', :name => 'FRENCH SOUTHERN TERRITORIES', :printable_name => 'French Southern Territories', :iso3 => 'ATF', :numcode => '260' },
+      {:iso => 'UM', :name => 'UNITED STATES MINOR OUTLYING ISLANDS', :printable_name => 'United States Minor Outlying Islands', :iso3 => 'UMI', :numcode => '581' },
+      {:iso => 'YT', :name => 'MAYOTTE', :printable_name => 'Mayotte', :iso3 => 'MYT', :numcode => '175' }
     ]
   end
 end
