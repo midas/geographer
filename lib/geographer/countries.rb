@@ -15,6 +15,7 @@ module Geographer
       end
     end
 
+    # http://en.wikipedia.org/wiki/ISO_3166-1
     COUNTRIES_LIST = [
       {:iso => 'AD', :name => 'ANDORRA', :printable_name => 'Andorra', :iso3 => 'AND', :numcode => '020'},
       {:iso => 'AE', :name => 'UNITED ARAB EMIRATES', :printable_name => 'United Arab Emirates', :iso3 => 'ARE', :numcode => '784'},
@@ -44,6 +45,7 @@ module Geographer
       {:iso => 'BM', :name => 'BERMUDA', :printable_name => 'Bermuda', :iso3 => 'BMU', :numcode => '060'},
       {:iso => 'BN', :name => 'BRUNEI DARUSSALAM', :printable_name => 'Brunei Darussalam', :iso3 => 'BRN', :numcode => '096'},
       {:iso => 'BO', :name => 'BOLIVIA', :printable_name => 'Bolivia', :iso3 => 'BOL', :numcode => '068'},
+      {:iso => 'BQ', :name => 'BONAIRE, SINT EUSTATIUS AND SABA', :printable_name => 'Bonaire, Sint Eustatius and Saba', :iso3 => 'BES', :numcode => '535'},
       {:iso => 'BR', :name => 'BRAZIL', :printable_name => 'Brazil', :iso3 => 'BRA', :numcode => '076'},
       {:iso => 'BS', :name => 'BAHAMAS', :printable_name => 'Bahamas', :iso3 => 'BHS', :numcode => '044'},
       {:iso => 'BT', :name => 'BHUTAN', :printable_name => 'Bhutan', :iso3 => 'BTN', :numcode => '064'},
@@ -66,6 +68,7 @@ module Geographer
       {:iso => 'CR', :name => 'COSTA RICA', :printable_name => 'Costa Rica', :iso3 => 'CRI', :numcode => '188'},
       {:iso => 'CU', :name => 'CUBA', :printable_name => 'Cuba', :iso3 => 'CUB', :numcode => '192'},
       {:iso => 'CV', :name => 'CAPE VERDE', :printable_name => 'Cape Verde', :iso3 => 'CPV', :numcode => '132'},
+      {:iso => 'CW', :name => 'CURAÇAO', :printable_name => 'Curaçao', :iso3 => 'CUW', :numcode => '531'},
       {:iso => 'CX', :name => 'CHRISTMAS ISLAND', :printable_name => 'Christmas Island', :iso3 => 'CXR', :numcode => '162' },
       {:iso => 'CY', :name => 'CYPRUS', :printable_name => 'Cyprus', :iso3 => 'CYP', :numcode => '196'},
       {:iso => 'CZ', :name => 'CZECH REPUBLIC', :printable_name => 'Czech Republic', :iso3 => 'CZE', :numcode => '203'},
@@ -218,6 +221,7 @@ module Geographer
       {:iso => 'SR', :name => 'SURINAME', :printable_name => 'Suriname', :iso3 => 'SUR', :numcode => '740'},
       {:iso => 'ST', :name => 'SAO TOME AND PRINCIPE', :printable_name => 'Sao Tome and Principe', :iso3 => 'STP', :numcode => '678'},
       {:iso => 'SV', :name => 'EL SALVADOR', :printable_name => 'El Salvador', :iso3 => 'SLV', :numcode => '222'},
+      {:iso => 'SX', :name => 'SINT MAARTEN (DUTCH PART)', :printable_name => 'Sint Maarten (Dutch part)', :iso3 => 'SXM', :numcode => '534'},
       {:iso => 'SY', :name => 'SYRIAN ARAB REPUBLIC', :printable_name => 'Syrian Arab Republic', :iso3 => 'SYR', :numcode => '760'},
       {:iso => 'SZ', :name => 'SWAZILAND', :printable_name => 'Swaziland', :iso3 => 'SWZ', :numcode => '748'},
       {:iso => 'TC', :name => 'TURKS AND CAICOS ISLANDS', :printable_name => 'Turks and Caicos Islands', :iso3 => 'TCA', :numcode => '796'},
