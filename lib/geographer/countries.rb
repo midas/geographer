@@ -12,6 +12,7 @@ module Geographer
         COUNTRIES_LIST.each do |country|
           return country if country[property.to_sym] == value
         end
+        nil
       end
     end
     
