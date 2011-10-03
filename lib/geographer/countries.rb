@@ -24,7 +24,6 @@ module Geographer
       {:iso => 'AI', :name => 'ANGUILLA', :printable_name => 'Anguilla', :iso3 => 'AIA', :numcode => '660'},
       {:iso => 'AL', :name => 'ALBANIA', :printable_name => 'Albania', :iso3 => 'ALB', :numcode => '008'},
       {:iso => 'AM', :name => 'ARMENIA', :printable_name => 'Armenia', :iso3 => 'ARM', :numcode => '051'},
-      {:iso => 'AN', :name => 'NETHERLANDS ANTILLES', :printable_name => 'Netherlands Antilles', :iso3 => 'ANT', :numcode => '530'},
       {:iso => 'AO', :name => 'ANGOLA', :printable_name => 'Angola', :iso3 => 'AGO', :numcode => '024'},
       {:iso => 'AR', :name => 'ARGENTINA', :printable_name => 'Argentina', :iso3 => 'ARG', :numcode => '032'},
       {:iso => 'AS', :name => 'AMERICAN SAMOA', :printable_name => 'American Samoa', :iso3 => 'ASM', :numcode => '016'},
