@@ -32,7 +32,7 @@ module Geographer
         # A list of names of US States and territories.
         #
         def names_with_territories
-          self.abbreviations_name_map.values.sort
+          self.abbreviations_name_map.values.flatten.sort
         end
 
         def military_region_abbreviations
@@ -40,7 +40,11 @@ module Geographer
         end
 
         def military_region_names
-          ['Armed Forces Americas', 'Armed Forces Africa/Canada/Europe/Middle East', 'Armed Forces Pacific']
+          ['Armed Forces Americas', 'Armed Forces Pacific'] + military_region_other_country_names
+        end
+
+        def military_region_other_country_names
+          ['Armed Forces Africa', 'Armed Forces Canada', 'Armed Forces Europe', 'Armed Forces Middle East']
         end
 
         # A list of abbreviatons of US territories.
@@ -63,7 +67,7 @@ module Geographer
             'AZ' => 'Arizona',
             'AR' => 'Arkansas',
             'AA' => 'Armed Forces Americas',
-            'AE' => 'Armed Forces Africa/Canada/Europe/Middle East',
+            'AE' =>  military_region_other_country_names.join(","),
             'AP' => 'Armed Forces Pacific',
             'CA' => 'California',
             'CO' => 'Colorado',
