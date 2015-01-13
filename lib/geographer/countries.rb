@@ -236,7 +236,7 @@ module Geographer
       {:iso => 'TH', :name => 'THAILAND', :printable_name => 'Thailand', :iso3 => 'THA', :numcode => '764'},
       {:iso => 'TJ', :name => 'TAJIKISTAN', :printable_name => 'Tajikistan', :iso3 => 'TJK', :numcode => '762'},
       {:iso => 'TK', :name => 'TOKELAU', :printable_name => 'Tokelau', :iso3 => 'TKL', :numcode => '772'},
-      {:iso => 'TL', :name => 'TIMOR-LESTE', :printable_name => 'Timor-Leste', :iso3 => 'TLS', :numcode => '626'},
+      {:iso => 'TL', :name => 'TIMOR-LESTE', :printable_name => 'Timor-Leste', :iso3 => 'TLS', :numcode => '626', :aka => ["East Timor"] },
       {:iso => 'TM', :name => 'TURKMENISTAN', :printable_name => 'Turkmenistan', :iso3 => 'TKM', :numcode => '795'},
       {:iso => 'TN', :name => 'TUNISIA', :printable_name => 'Tunisia', :iso3 => 'TUN', :numcode => '788'},
       {:iso => 'TO', :name => 'TONGA', :printable_name => 'Tonga', :iso3 => 'TON', :numcode => '776'},
