@@ -52,6 +52,7 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<shoulda>, [">= 2.10.2"])
+      s.add_development_dependency(%q<jeweler>, ["~> 2"])
     else
       s.add_dependency(%q<shoulda>, [">= 2.10.2"])
     end
